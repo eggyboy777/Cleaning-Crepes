@@ -248,4 +248,22 @@ body {
     -moz-text-fill-color: transparent;
   }
 
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color:  #FFEA00;
+  }
+
+.main__btn {
+    font-size: 1rem;
+    background-image:  linear-gradient(to top,#0000FF, #0000FF );
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+
+    
+}
+
   
