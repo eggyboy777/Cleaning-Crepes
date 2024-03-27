@@ -1,11 +1,12 @@
-body {
-    background-repeat: no-repeat;
-    background-attachment:local;
-    background-size: cover;
-    width: 100%;
-    height: auto;
 
-  }
+    /*body {
+        background-image: url('2\ photos\ added.jpg');
+        background-repeat: no-repeat;
+        background-attachment:local;
+        background-size: cover;
+      }*/
+
+
     
 
 * {
@@ -215,10 +216,10 @@ body {
 }
 
 
-  /* Hero Sction CSS */
+  /* Hero Sction CSS 
   .main {
     background-color: #0096FF;
-  }
+  }*/
 
   .main__container {
     display: grid;
@@ -293,5 +294,25 @@ body {
 }
 
 .Cleaning {
-    alighn 
+    align-items: center;
 }
+
+.header-image {
+    background-image: url("2_photos_added.jpg");
+    margin-top: 0px;
+    top: 100%;
+    background-position: center;
+    color: black;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .header-image-text {
+    align-items: center;
+    font-size: 5rem;
+    padding-left: 550px;
+    padding-top: 100px;
+    color:#FFD700;
+  }
