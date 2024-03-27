@@ -298,22 +298,23 @@
 }
 
 .header-image {
-    background-image: url("2_photos_added.jpg");
-    margin-top: 0px;
+    background-image: url("haha-feet.png"), linear-gradient(#00008B 10%, #FFF 100%);
     top: 100%;
     background-position: center;
     background-attachment: fixed;
     color: black;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 30rem;
     background-size: cover;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .header-image-text {
     align-items: center;
+    text-align: center;
     font-size: 5rem;
-    padding-left: 550px;
-    padding-top: 100px;
     color:#FFD700;
   }
