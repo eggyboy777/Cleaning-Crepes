@@ -1,6 +1,6 @@
 body {
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:local;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -12,7 +12,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh sans'
+    font-family: "Bubblegum Sans", sans-serif;
 }
 
 .navbar {
@@ -53,6 +53,7 @@ body {
     text-decoration: none;
     font-size: 2.5rem;
     font-weight: bold;
+    font-family: "Fuzzy Bubbles", sans-serif;
 }
 
 .fa-gem {
@@ -256,14 +257,41 @@ body {
   }
 
 .main__btn {
-    font-size: 1rem;
-    background-image:  linear-gradient(to top,#0000FF, #0000FF );
-    padding: 14px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 6%;
+    width: 40%;
     border: none;
+    outline: none;
     border-radius: 4px;
-    color: #fff;
-
-    
+    background: #00008B;
+    color: #00008B;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-  
+.main__btn:Hover {
+    color:#00008B;
+    background-color: #00008B;
+    scale: 1.2;
+    transition: all 0.3s ease;
+}
+
+
+.main__img {
+    display:sticky;
+    max-width: 1rem;
+    max-height: 1rem;
+}
+
+.h1 {
+    align-items: center;
+}
+
+.Cleaning {
+    alighn 
+}
