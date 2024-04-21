@@ -16,6 +16,12 @@
   font-family: "Bubblegum Sans", sans-serif;
 }
 
+.header {
+  height: 600px;
+  width: 100vw;
+  background: black;
+  overflow: hidden;
+}
 .navbar {
     background: #fff;
     background-image: linear-gradient(to top, #0096FF 0%, #0000FF 100%);
@@ -228,7 +234,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 75vh;
     background-color: none;
     z-index: 1;
     width: 100%;
@@ -283,7 +289,7 @@
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    left: 500px;
+    left: 550px;
     top: 1400px;
     position: absolute;
     font-size: 2rem;
@@ -305,7 +311,6 @@
     top: 100%;
     background-position: center;
     background-attachment: fixed;
-    color: black;
     background-repeat: no-repeat;
     height: 55rem;
     background-size: cover;
@@ -313,21 +318,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
   }
 
   .header-image-text {
     align-items: center;
     text-align: center;
     font-size: 5rem;
-    color:#0096FF;
-    color: linear-gradient(to top, #0096FF -50%, #00008B  100%);
+    color: linear-gradient(to top, #00008B -75%, #00008B  100%);
+    font-weight: 500;
       animation: fadeIn 5s;
       -webkit-animation: fadeIn 5s;
       -moz-animation: fadeIn 5s;
       -o-animation: fadeIn 5s;
       -ms-animation: fadeIn 5s;
     }
-    
+
     @keyframes fadeIn {
       0% { opacity: 0; }
       100% { opacity: 1; }
@@ -419,7 +425,7 @@
     position: absolute;
     left: 250px;
     right:250px;
-    top: 500px;
+    top: 1400px;
 
 }
 
@@ -452,4 +458,66 @@
   left: 250px;
   right:250px;
   top: 1100px;
+}
+
+.socials {
+  overflow:visible;
+  height: 60px;
+  width: 60px;
+  z-index: 99 !important;
+  position:absolute;
+  top: 1760px;
+  left: 750px;
+  cursor: pointer;
+}
+
+.socials img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 20%;
+  background: #fff;
+    background-image: linear-gradient(to top, #0096FF 0%, #0000FF 100%);
+z-index: 9;
+}
+
+.socials-text {
+  position: absolute;
+  top:1700px;
+  left: 740px;
+  color:#FFD700
+}
+.socials2 {
+  overflow:visible;
+  height: 60px;
+  width: 60px;
+  z-index: 99 !important;
+  position:absolute;
+  top: 1760px;
+  left: 890px;
+  cursor: pointer;
+}
+
+.socials2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.socials3 {
+  overflow:visible;
+  height: 60px;
+  width: 60px;
+  z-index: 99 !important;
+  position:absolute;
+  top: 1760px;
+  left: 1035px;
+  cursor: pointer;
+}
+
+.socials3 img {
+  height: 100%;
+  width: 100%;
 }
