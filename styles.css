@@ -7,7 +7,11 @@
       }*/
 
 .he-text
-    
+  
+
+.bolded {
+  width: 300px;
+}
 
 * {
   box-sizing: border-box;
@@ -72,11 +76,12 @@
     align-items: center;
     list-style: none;
     text-align: center;
-    padding: 0px;
+    padding-left: 500px;
 }
 
 .navbar__item {
     height: 80px;
+    padding: 50px;
 }
 
 .navbar__links {
@@ -85,8 +90,9 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    padding: 0 3rem;
+    padding: 0 0rem;
     height: 100%;
+    width: 200px;
     font-size: 2rem;
 }
 
@@ -94,8 +100,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 1rem;
-    width: 100%;
+    width:200px;
 }
 
 .button {
@@ -103,7 +108,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     height: 100%;
     width: 100%;
     border: none;
@@ -269,7 +274,7 @@
     position: absolute;
     left: 250px;
     right:250px;
-    top: 1100px;
+    top: 1050px;
   }
 
 .main__btn {
@@ -486,9 +491,10 @@ z-index: 9;
 
 .socials-text {
   position: absolute;
-  top:1700px;
-  left: 740px;
-  color:#FFD700
+  top:1900px;
+  left: 700px;
+  color:#FFD700;
+  font-size: 2rem;
 }
 .socials2 {
   overflow:visible;
@@ -516,6 +522,19 @@ z-index: 9;
   left: 1035px;
   cursor: pointer;
 }
+.socials3:hover {
+  scale: 1.2;
+  transition: all 0.3s ease;
+}
+.socials2:hover {
+  scale: 1.2;
+  transition: all 0.3s ease;
+}
+.socials:hover {
+  scale: 1.2;
+  transition: all 0.3s ease;
+}
+
 
 .socials3 img {
   height: 100%;
