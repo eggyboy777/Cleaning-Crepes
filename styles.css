@@ -6,11 +6,14 @@
         background-size: cover;
       }*/
 
-.he-text
   
 
 .bolded {
-
+  align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: #FFD700;
+    font-weight: 500;
 }
 
 * {
@@ -60,6 +63,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     font-family: "Fuzzy Bubbles", sans-serif;
+    padding: 0%;
 }
 
 .fa-gem {
@@ -163,11 +167,13 @@
         z-index: 99;
         height: 50vh;
         font-size: 1.6rem;
-        width:100%
+        width:200vh;
+        padding: 0%;
     }
 
     #navbar__logo {
-       padding-left: 25px;
+       padding-left: 0%;
+       position: relative;
     }
 
     .navbar__toggle .bar {
