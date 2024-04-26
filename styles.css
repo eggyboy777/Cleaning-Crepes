@@ -9,11 +9,8 @@
   
 
 .bolded {
-  align-items: center;
-    text-align: center;
     font-size: 2rem;
     color: #FFD700;
-    font-weight: 500;
 }
 
 * {
@@ -44,7 +41,7 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1900px;
     margin: 0 auto;
     padding: 0 0px;
 }
@@ -56,14 +53,15 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 2.5rem;
     font-weight: bold;
     font-family: "Fuzzy Bubbles", sans-serif;
     padding: 0%;
+    padding-right: 25%;
+    padding-left: 5%;
+    top: 30%;
 }
 
 .fa-gem {
@@ -82,7 +80,7 @@
 
 .navbar__item {
     height: 80px;
-    padding: 30px;
+    padding: 5%;
     align-items: center;
 }
 
@@ -92,33 +90,35 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    padding: 5%;
     height: 100%;
     width: 100%;
     font-size: 2rem;
 }
 
 .navbar__btn {
+  position:relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:150px;
-    height: 50px;
+    height: 100%;
+    width: 20%;
+    color: none;
+    padding-left: 20%;
+    padding-right: 0%;
 }
 
 .button {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    height: 100%;
+    height: 50%;
     width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 4px;
     background: #FFD700;
     color: #0000FF;
 }
+
 
 
 .button:hover {
@@ -173,7 +173,7 @@
 
     #navbar__logo {
        padding-left: 0%;
-       position: relative;
+       position: absolute;
     }
 
     .navbar__toggle .bar {
@@ -186,6 +186,8 @@
 
     .navbar__item {
         width: 100%;
+        align-items: center;
+        align-self: center;
     }
 
     .navbar__links {
@@ -202,9 +204,6 @@
         transform: translate(5%, 20%);
     }
 
-    .navbar__btn {
-        padding-bottom: 2rem;
-    }
 
     .button {
         display: flex;
@@ -212,7 +211,6 @@
         align-items: center;
         width: 50%;
         height: 60px;
-        margin: 0;
     }
 
     .navbar__toggle .bar {
