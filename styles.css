@@ -53,10 +53,10 @@
     font-size: calc(2vw + 2vh);
     font-weight: bold;
     font-family: "Fuzzy Bubbles", sans-serif;
-    padding: 5%;
     display: flex;
-    width: 100%;
-    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
 }
 
 .fa-gem {
@@ -108,7 +108,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    height: 50%;
+    height: 70%;
     width: 60%;
     background: #FFD700;
     color: #0000FF;
@@ -167,8 +167,9 @@
     }
 
     #navbar__logo {
-       padding-left: 0%;
        position: absolute;
+       height: 100%;
+       justify-content: left;
     }
 
     .navbar__toggle .bar {
@@ -251,7 +252,7 @@
   .main__content h1 {
     font-size: 4rem;
     background-color: #FFEA00;
-    background-image: linear-gradient(to top, #FFEA00 0%, #fff3 100%);
+    background-image: linear-gradient(to top, #FFEA00 0%, #fff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -310,31 +311,33 @@
 
 
 .header-image {
-    background-image: url("haha-feet.png"), linear-gradient(#00008B 10%, #FFF 100%);
+    background-image: url("haha-feet.png"), linear-gradient(#00008B 0%, #FFF 100%);
     top: 100%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 60%;
     background-size: cover;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     object-fit: cover;
+    width: auto;
   }
 
   .header-image-text {
+    background-image: url("haha-feet.png"), linear-gradient(#00008B 0%, #FFF 100%);
     align-items: center;
     text-align: center;
     font-size: 5rem;
-    color: linear-gradient(to top, #00008B -75%, #00008B  100%);
+    color:#00008B;
     font-weight: 500;
       animation: fadeIn 5s;
       -webkit-animation: fadeIn 5s;
       -moz-animation: fadeIn 5s;
       -o-animation: fadeIn 5s;
       -ms-animation: fadeIn 5s;
+      max-width: 100%;
     }
 
     @keyframes fadeIn {
