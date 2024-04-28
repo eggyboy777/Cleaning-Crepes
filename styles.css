@@ -476,14 +476,18 @@
 }
 
 .socials {
-  overflow:hidden;
   height: 60px;
   width: 60px;
   z-index: 99 !important;
   position:relative;
-  top: 50%;
-  left: 30%;
+  top: 30%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
   cursor: pointer;
+  size: calc(1.5vw + 1.5vh);
+  left:47%;
 }
 
 .socials img {
@@ -510,7 +514,6 @@ z-index: 9;
   margin: auto;
   padding: 0px;
   z-index: 99 !important;
-  font-size: calc(1.5vw + 1.5vh);
 }
 
 .socials-text p{
@@ -520,14 +523,18 @@ height:100%;
 
 
 .socials2 {
-  overflow:visible;
   height: 60px;
   width: 60px;
-  z-index: 9 !important;
+  z-index: 99 !important;
   position:relative;
-  top: 17%;
-  left: 50%;
+  top: -4%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
   cursor: pointer;
+  size: calc(1.5vw + 1.5vh);
+  left:70%;
 }
 
 .socials2 img {
@@ -536,14 +543,18 @@ height:100%;
 }
 
 .socials3 {
-  overflow:visible;
   height: 60px;
   width: 60px;
   z-index: 99 !important;
   position:relative;
-  top: -17%;
-  left: 0%;
+  top: -35%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
   cursor: pointer;
+  size: calc(1.5vw + 1.5vh);
+  left:20%;
 }
 .socials3:hover {
   scale: 1.2;
@@ -562,4 +573,48 @@ height:100%;
 .socials3 img {
   height: 100%;
   width: 100%;
+}
+
+
+.socials-name {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top:162%;
+  color:#FFD700;
+  font-size: 1rem;
+  margin: auto;
+  padding: 0%;
+  z-index: 99 !important;
+  left:47%
+}
+
+.socials-name2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top:162%;
+  color:#FFD700;
+  font-size: 1rem;
+  margin: auto;
+  padding: 0%;
+  z-index: 99 !important;
+  left:70.5%
+}
+
+
+.socials-name3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top:162%;
+  color:#FFD700;
+  font-size: 1rem;
+  margin: auto;
+  padding: 0%;
+  z-index: 99 !important;
+  left:20%
 }
