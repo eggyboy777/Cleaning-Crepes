@@ -57,6 +57,7 @@
     justify-content: center;
     align-items: center;
     width: 60%;
+    top:0%
 }
 
 .fa-gem {
@@ -147,20 +148,20 @@
         top: -1000px;
         opacity: 1;
         transition: all 0.5s ease;
-        height: 50vh;
+        height: 60vh;
         z-index: -1;
         background: #0096FF;
-        width:100%
+        width:100%;
     }
 
     .navbar__menu.active {
         background: #0096FF;
         background-image: linear-gradient(to top, #fff -50%, #0096FF 100%);
-        top: 100%;
+        top: 95%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 50vh;
+        height: 60vh;
         font-size: 1.6rem;
         width:200vh;
         padding: 0%;
@@ -290,7 +291,7 @@
     background: #00008B;
     color: #00008B;
     cursor: pointer;
-    top: -50%;
+    top: -40%;
     position:relative;
     font-size: 2rem;
     right: 25%;
@@ -326,12 +327,12 @@
   }
 
   .header-image-text {
-    background-image: url("haha-feet.png"), linear-gradient(#00008B 0%, #FFF 100%);
+    background-image: url("haha-feet.png"), linear-gradient(#FFEA00 , #FFFFED 100%);
     align-items: center;
     text-align: center;
-    font-size: 5rem;
+    font-size: 7rem;
     color:#00008B;
-    font-weight: 500;
+    font-weight: 100;
       animation: fadeIn 5s;
       -webkit-animation: fadeIn 5s;
       -moz-animation: fadeIn 5s;
@@ -453,12 +454,11 @@
 
 .main__content2 p {
   background-color: #FFEA00;
-  background-image: linear-gradient(to top, #FFEA00 50%, #FFF 100%);
+  background-image: linear-gradient(to top, #FFEA00 50%, #FFEA00 100%);
   background-size: 100%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  cursor: pointer;
   text-decoration: none;
   font-size: calc(1.5vw + 1.5vh);
   font-weight: bold;
@@ -472,7 +472,7 @@
   padding-right: 15%;
   z-index: 99 !important;
   position: relative;
-  top: 70vh;
+  top: 75vh;
 }
 
 .socials {
@@ -500,16 +500,17 @@ z-index: 9;
 }
 
 .socials-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
   position: relative;
-  top:-20%;
-  left: 0%;
+  top:10%;
   color:#FFD700;
   font-size: 2rem;
   margin: auto;
   padding: 0px;
-  overflow:visible;
   z-index: 99 !important;
-  width:40vh;
+  font-size: calc(1.5vw + 1.5vh);
 }
 
 .socials-text p{
