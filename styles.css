@@ -232,7 +232,7 @@
 
   .main {
     background-color: #0096FF;
-    height: 150vh;
+    height: 175vh;
   }
 
   .main__container {
@@ -661,34 +661,96 @@ padding: 0%;
 }
 
 
-.product-image-gallery {
+
+:root{
+  --white:#fff;
+  --bg:#f2ecec;
+  --primary:#7d6be8;
+}
+
+.body{
+  color:#0096FF;
+}
+.container5 {
+  max-width: 74rem;
+  margin: 0 auto;
+  padding: 1.7rem 1rem;
   background-color: #0096FF;
-  padding: 1.5rem;
+  width: 100%;
 }
 
-.pdp-product-image {
-  margin-bottom: 20px;
-  width: 50%;
-  height: 80%;
+.product-img {
+width: 100%;
+height: 40rem;
+position: relative;
+margin-bottom: 2rem;
+border-radius: 0.5rem;
+background:#00008B;
+overflow: hidden;
+}
+.product-img img{
+  width: 55rem;
+  height: 37rem;
+  object-fit: contain;
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%) rotate(0deg);
+}
+@media (max-width:630px) {
+  .product_img{
+    height: 30rem;
+  }
+  .product-img img{
+    width: 90%;
+    height: 100%;
+    padding:1rem;
+  }
 }
 
-.product-thumbs a {
-  margin-left: 8px;
-  margin-right: 8px;
-  padding: 0 !important;
+@media (max-width: 375px) {
+  .product-img{
+    height: 25rem;
+  }
 }
 
-.product-thumbs a img {
-  display: inline-block;
-  max-width: 50%;
-  margin-bottom: 1rem;
-  border: solid 4px #fefefe;
-  border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
-  line-height: 0;
-  border-radius: 3px;
-  width: 50px;
-  height: 50px;
-  border: none;
+
+.product-thumbnail-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 0.7rem
 }
 
+.product-thumbnail {
+  background: #00008B;
+  border: 0.3rem solid #0096FF;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.product-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-thumbnail.active{
+  border: 0.3rem solid #FFD700;
+
+} 
+
+.product-down-animation{
+  animation: down 0.5s ease;
+}
+@keyframes down {
+  0%{
+    top:-100%;
+  }
+  100%{
+    top:0%
+  }
+}
