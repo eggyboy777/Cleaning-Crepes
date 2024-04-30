@@ -772,3 +772,8 @@ margin-top: 5rem;
   object-fit: cover;
   width: auto;
 }
+
+.main2 {
+  background-color: #0096FF;
+  height: 130vh;
+}
